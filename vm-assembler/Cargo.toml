@@ -1,0 +1,11 @@
+[package]
+name = "vm-assembler"
+version = "0.1.0"
+authors = ["Ezra Celli <ezra@onerockwell.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pom = "3.1.0"
+vm = { path = "../vm" }
